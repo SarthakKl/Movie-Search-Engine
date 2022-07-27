@@ -56,32 +56,18 @@ body{
     text-align: center;
     color: white;
 }
-.MovieParent{
-    position: relative;
-    width: 100%;
-    
+.movieImage{
+    width:350px;
+    height:350px;
+    border:2px solid white;
+    padding:5px;
 }
-.ImageCover{
-    width:100%;
-    top:0px;
-    left:0px;
-    height: 100vh;
-    right: 0px;
-    z-index: -1;
-    background-color: black;
-    opacity: .35;
-    margin: auto; 
-    display: block;
-    position: absolute
+.movieDetails{
+    font-size: 20px;
+    padding: 10px;
+    color:wheat;
+    display:flex;
 }
-.Image{
-    width:100%;
-    top:0px;
-    left:0px;
-    height: 100vh;
-    right: 0px;
-    z-index: -2;
-    margin: auto; 
-    display: block;
-    position: absolute
+.movieHeader{
+    padding: 20px;
 }
